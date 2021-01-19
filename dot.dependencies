@@ -4,6 +4,12 @@
     "target_path": "system/qcom",
   },
   {
+    "repository": "android_hardware_motorola",
+    "target_path": "hardware/motorola",
+    "branch": "lineage-18.1",
+    "remote": "LineageOS",
+  },
+  {
     "repository": "motorola_camera2_primary",
     "target_path": "packages/apps/MotCamera2",
     "branch": "eleven-arm64",
