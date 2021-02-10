@@ -146,6 +146,11 @@ PRODUCT_PACKAGES += \
     com.android.media.swcodec \
     libsfplugin_ccodec
 
+# Charger images
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
+
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
