@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2018 The dotOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_deen.mk
+    $(LOCAL_DIR)/dot_deen.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_deen-user \
-    lineage_deen-userdebug \
-    lineage_deen-eng
+    dot_deen-user \
+    dot_deen-userdebug \
+    dot_deen-eng
